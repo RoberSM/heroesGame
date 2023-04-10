@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <title>Heroes Fight Game!</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Heroes fight</div>
+        <div class="btns-container">
+            <button class="btn" id="show-heroes-button">Show Heroes</button>    
+            <button class="btn" id="start-fight-btn">Start Fight</button>
+        </div>
+        <div class="heroes-container" id="heroes-container">
+            <div class="hero-container">
+                <div class="avatar">
+                    <img src="assets/dwarf.jpg" alt="Doodle Hero" class="hero-avatar">
+                </div>
+                <span class="hero-name">Doodles</span>
+                <div class="hero-details-container">
+                    <span>50 XP</span>
+                    <span>Can't Fly</span>
+                    <span>Has Shield</span>
+                </div>
+            </div>
+            <div class="hero-container">
+                <div class="avatar">
+                    <img src="assets/sprite2.jpg" alt="Matata Hero" class="hero-avatar">
+                </div>
+                <span class="hero-name">Matata</span>
+                <div class="hero-details-container">
+                    <span>40 XP</span>
+                    <span>Can Fly</span>
+                    <span>No Shield</span>
+                </div>
+            </div>
+            <div class="hero-container">
+                <div class="avatar">
+                    <img src="assets/dragon.jpg" alt="Ciupi Hero" class="hero-avatar">
+                </div>
+                <span class="hero-name">Ciupi</span>
+                <div class="hero-details-container">
+                    <span>45 XP</span>
+                    <span>Can Fly</span>
+                    <span>Has Shield</span>
+                </div>
+            </div>
+        </div>
+        <div id="show-winner"></div>
+    </div>
+
+    <script src="oop-logic.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

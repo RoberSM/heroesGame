@@ -1,0 +1,131 @@
+body {
+    background-image: url(assets/img-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    margin: 0;
+    height: 100vh;
+}
+
+//tablet 
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title {
+    font-size: 36px;
+    font-weight: 700;
+    background-color: rgba(255,255,255, 0.6);
+    width: 300px;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 30px 0;
+    color: #2F3640;
+    border-radius: 2px;
+}
+.btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+#show-heroes-button {
+    background-color: #7F8FA6;
+    color: #F5F6FA;
+    width: 200px;
+}
+
+#show-heroes-button:hover {
+    font-size: 26px;
+    width: 300px;
+}
+
+
+#start-fight-btn {
+    background-color: #44BD32;
+    color: #F5F6FA;
+    display: none;
+    width: 200px;
+}
+
+#start-fight-btn{
+    font-size: 26px;
+    width: 300px;
+}
+
+.heroes-container {
+    display: none;
+    justify-content: space-evenly;
+    width: 1000px;
+    margin: 30px 0;
+}
+.hero-container {
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    background-color: rgba(255,255,255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px;
+}
+.hero-avatar {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 2px solid #DCDDE1;
+}
+.hero-name {
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 6px;
+    font-weight: 600;
+    color: #273C75;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+.hero-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+}
+
+#show-winner{
+    display: flex;
+    align-items: center;
+    color: #2d3436;
+    font-size: 50px;
+    border:5px transparent;
+    border-radius: 20px;
+    background-color: #dfe6e989;
+    box-shadow: 10px 10px 20px;
+    font-weight: 600;
+    padding: 0 20px;
+    font-family:'Lucida Sans Unicode', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',  Geneva, Verdana, sans-serif;
+    display: none;
+    width: 80%;
+    text-align: center;
+}
+
+.d-none {
+    display: none!important;
+}
+
+.d-block {
+    display: block!important;
+}
+
+.d-flex {
+    display: flex;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+}
